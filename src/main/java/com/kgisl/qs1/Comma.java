@@ -12,7 +12,7 @@ public class Comma {
         
 String a= "Erode,Salem,Covai";
 
-List<String> b=Arrays.asList(a.split("\\s*,\\s*"));
+List<String> b=Arrays.asList(a.split("/"));
 
 System.out.println(b);
 

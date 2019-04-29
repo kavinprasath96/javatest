@@ -10,7 +10,7 @@ public class EmpConst {
     public double salary;
 
     
-   public  EmpConst(int empid,String name, double salary) {
+   EmpConst(int empid,String name, double salary) {
        this.empid = empid;
        this.name = name;
        this.salary = salary;
@@ -19,12 +19,12 @@ public class EmpConst {
     public EmpConst()
     {
         this(1);
-        System.out.println("present");
+        // System.out.println("Emp id ");
     }
     public EmpConst(int empid) {
 
         this(empid, 10);
-        System.out.println("Absent");
+        // System.out.println("Emp id ");
  
     }
  

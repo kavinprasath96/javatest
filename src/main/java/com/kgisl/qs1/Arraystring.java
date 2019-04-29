@@ -15,7 +15,27 @@ public class Arraystring {
         a.add("b");
         a.add("c");
 
-        String array[] = new String[a.size()]; 
+        ArrayList<Integer> b =new ArrayList<Integer>();
+        b.add(1);
+        b.add(2);
+        b.add(3);
+
+
+        Integer s[] = new Integer[b.size()]; 
+        for(int j =0;j<b.size();j++)
+        {
+            s[j] = b.get(j);
+          }
+  
+       
+          for(Integer k : s)
+          {
+              System.out.println(k);
+          }
+        }
+    }
+        
+        /* String array[] = new String[a.size()]; 
         for(int j =0;j<a.size();j++)
         {
             array[j] = a.get(j);
@@ -25,6 +45,5 @@ public class Arraystring {
           for(String k: array)
           {
               System.out.println(k);
-          }
-      }
-  }
+          }*/
+    

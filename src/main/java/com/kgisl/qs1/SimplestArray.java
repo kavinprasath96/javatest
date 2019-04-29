@@ -9,7 +9,7 @@ public class SimplestArray {
 
     public static void main(String[] args) {
         
-        String[][] deepArray = new String[][] {{"John", "Mary"}, {"Alice", "Bob"}};
-        System.out.println(Arrays.deepToString(deepArray));
+        String[] abc = new String[] {"John", "Mary","Alice", "Bob"};
+        System.out.println(Arrays.deepToString(abc));
     }
 }
