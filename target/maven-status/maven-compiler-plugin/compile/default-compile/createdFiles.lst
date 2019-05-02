@@ -1,10 +1,5 @@
-com\kgisl\qs1\Comma.class
-com\kgisl\qs1\Read.class
-com\kgisl\qs1\ArrayMeth.class
-com\kgisl\qs1\SimplestArray.class
-com\kgisl\qs1\Eb.class
-com\kgisl\qs1\Employee.class
+com\kgisl\qs1\ListString.class
 com\kgisl\qs1\EmpConst.class
-com\kgisl\qs1\Arraystring.class
-com\kgisl\qs1\Employee1.class
-com\kgisl\qs1\Rw.class
+com\kgisl\qs1\Empcsv.class
+com\kgisl\qs1\Read.class
+com\kgisl\qs1\Hashmapp.class
